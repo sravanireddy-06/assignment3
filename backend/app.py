@@ -9,7 +9,7 @@ bcrypt = Bcrypt(app)
 
 
 # Replace with your MongoDB Atlas connection string
-MONGO_URI = "mongodb+srv://mouliinindia05:mouli05052002@cluster0.o6dco.mongodb.net/"
+MONGO_URI = "mongodb+srv://sravanivreddy4:shamu2306@cluster0.o541l.mongodb.net/"
 client = MongoClient(MONGO_URI)
 db = client["user-auth"]
 users_collection = db["users"]
